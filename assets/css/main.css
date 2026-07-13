@@ -8601,3 +8601,29 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+			/* Google Slides Responsive Embed */
+
+.slides-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.slides-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-height: 750px;
+    border: none;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
